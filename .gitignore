@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/*.csv
+data/*.xlsx
+
+# Ignore model files by default
+models/*.pkl
+models/*.joblib
+
+# Allow required FraudShield AI model artifacts
+!models/fraud_model.pkl
+!models/scaler.pkl
+!models/feature_names.pkl
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
